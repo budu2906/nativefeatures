@@ -1,7 +1,7 @@
 {
   "expo": {
 
-    
+
     "name": "nativefeatures",
     "slug": "nativefeatures",
     "version": "1.0.0",
@@ -30,7 +30,8 @@
       [
         "expo-image-picker",
         {
-          "cameraPermission": "The app accesses your camera to take photos"
+          "cameraPermission": "The app accesses your camera to take photos",
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
         }
       ],
       [
@@ -40,6 +41,6 @@
         }
       ]
     ]
-    
+
   }
 }
