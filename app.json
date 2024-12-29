@@ -1,5 +1,7 @@
 {
   "expo": {
+
+    
     "name": "nativefeatures",
     "slug": "nativefeatures",
     "version": "1.0.0",
@@ -23,6 +25,21 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app accesses your camera to take photos"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ]
+    
   }
 }
